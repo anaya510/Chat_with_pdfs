@@ -13,8 +13,8 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-os.getenv("AIzaSyBZJskLcqMUuoG7aw8TAGcGw9jAyWmG3GI")
-genai.configure(api_key=os.getenv("AIzaSyBZJskLcqMUuoG7aw8TAGcGw9jAyWmG3GI"))
+os.getenv("your_api_key")
+genai.configure(api_key=os.getenv("your_api_key"))
 
 
 def get_pdf_text(pdf_docs):
